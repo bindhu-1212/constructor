@@ -14,7 +14,7 @@ class Circle
     }
 int main()
 {
-    Circle c1(4);
+   Circle c1(4); /* Circle c1=Circle(4); */
     c1.area();
 }
     
