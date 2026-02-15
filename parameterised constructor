@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+class Circle
+{ int radius;
+    public:
+     Circle( int r) :radius(r){}
+        
+    void area()
+    {   int Calculate = 3.14*radius;
+        cout<<" Calculate: "<<Calculate;
+    }
+};
+int main()
+{
+    Circle c1(4);
+    c1.area();
+}
