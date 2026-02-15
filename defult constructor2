@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+#include<string>
+using namespace std;
+class Book
+{
+    public:
+    string title;
+    string author;
+    double price;
+    Book() :title("oops"),author("Bindhu"),price(98.00){} /*Book{
+                                                                    title = "oops",author="Bindhu",price=98.00;} */
+    void show()
+    {
+        cout<<" Title : "<<title<<" Author : "<<author<<"Price : "<<price;
+    }
+};
+int main()
+{
+    Book b1;
+    b1.show();
+    return 0;
+}
