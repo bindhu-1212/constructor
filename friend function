@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+class A
+{
+int length;
+public:
+A (int l):length(l) {}
+friend int show(A);
+};
+int show(A a) 
+{
+  a.length = 90;
+  return a.length;
+}
+int main()
+{
+   A a(45);
+   cout<<" Length = "<<show(a);
+}
